@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Best case: O(n) - When it's already ordered
+ * Medium case: O(n²) - loop inside of a loop
+ * Worst case: O(n²) - loop inside of a loop
+ */
+
 function bubbleSort(array $input): array
 {
   $n = count($input);
